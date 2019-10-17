@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby develop -p 8080 -H 0.0.0.0",
     "serve": "gatsby serve"
   },
   "dependencies": {
